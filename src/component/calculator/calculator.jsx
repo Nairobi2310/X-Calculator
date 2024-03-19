@@ -41,7 +41,7 @@ const Calculator = () => {
                 <button onClick={() => handleButtonClick(1)}>1</button>
                 <button onClick={() => handleButtonClick(2)}>2</button>
                 <button onClick={() => handleButtonClick(3)}>3</button>
-                <button onClick={() => handleButtonClick('')}></button>
+                <button onClick={() => handleButtonClick('*')}>*</button>
                 <button onClick={() => handleButtonClick('C')}>C</button>
                 <button onClick={() => handleButtonClick(0)}>0</button>
                 <button onClick={() => handleButtonClick('=')}>=</button>
